@@ -55,6 +55,10 @@ then, type
 
 and you should see the vehicle lift off vertically
 
+=== view in apmplanner ===
+
 Now you can use `apmplanner` or `mavproxy` to control the vehicle anyway you like.
 
-You can launch `gzclient` locally to watch the simulation too. You'll need a newer gzclient such as version 6. 
+=== View in gzclient ===
+
+You can launch `gzclient` locally to watch the simulation too. You'll need a newer gzclient such as version 6. And you will need to copy the models for the `iris_test` and `small_2d_gimbal` models onto your `GAZEBO_MODEL_PATH` such as into ``~/.gazebo/models`
